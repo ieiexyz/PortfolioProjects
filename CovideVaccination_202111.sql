@@ -134,11 +134,3 @@ ON dea.location = vac.location
 AND dea.date = vac.date
 WHERE dea.continent is not null
 
-
-
-
--- change datatype
--- SHOW FIELDS FROM Portfolio.coviddeath
--- ALTER TABLE portfolio.coviddeath,
--- MODIFY total_deaths INT
--- SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
