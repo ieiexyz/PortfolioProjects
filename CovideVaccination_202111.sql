@@ -81,7 +81,6 @@ AND dea.date = vac.date
 WHERE dea.continent is not null;
 -- RDER BY 2,3
 
--- USE CTE
 
 With PopvsVac (continet, location, data, population, new_vaccinations, RollingPeopleVaccinated )
 as
